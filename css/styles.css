@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -62,7 +64,8 @@ body {
   font-family: 'Piazolla', sans-serif;
 }
 
-.whyHLetter {
+.whyHLetter,
+.upPLetter {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
@@ -71,7 +74,9 @@ body {
   font-family: 'Ceviche One', sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.frontendNTwoLetter,
+.wantedWLetter  {
   font-size: 60px;
   font-weight: normal;
   color: coral;
@@ -82,223 +87,537 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.theHLetter {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(15, 60, 15);
+  text-decoration: underline;
+  text-transform: none;
+  font-family: 'Ceviche', sans-serif;
 }
 
-.didILetter {
+.didILetter,
+.developerELetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(30, 98, 223);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 
-.didDTwoLetter {
+
+.didDTwoLetter,
+.frontendRLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(169, 12, 30);
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 70px;
+  font-weight: 400;
+  color: rgb(156, 12, 169);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
-.theHLetter {
-}
+
 
 .theELetter {
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(156, 12, 169);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
+
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(12, 12, 12);
+  text-decoration: underline;
+  text-transform: none;
+  font-family: 'Piazolla', sans-serif;
 }
 
-.frontendRLetter {
-}
+
 
 .frontendOLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: rgb(192, 223, 17);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
-.frontendNLetter {
+.frontendNLetter,
+.developerVLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: hsl(30, 90%, 40%);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 
-.frontendTLetter {
+.frontendTLetter,
+.developerDLetter  {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #DC143C;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Monoton', sans-serif;
 }
 
 .frontendELetter {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(223, 86, 132);
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Rock Salt', sans-serif;
 }
 
-.frontendNTwoLetter {
-}
 
-.frontendDLetter {
+
+.frontendDLetter,
+.developerPLetter {
+  font-size: 60px;
+  font-weight: 200;
+  color: rgb(67, 12, 162);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
+
+.developerETwoLetter,
+.gardeningDLetter {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(251, 145, 255);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 .developerLLetter {
+  font-size: 60px;
+  font-weight: 200;
+  color: rgb(12, 162, 64);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .developerOLetter {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(210, 115, 5);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
-.developerPLetter {
-}
-.developerEThreeLetter {
+.developerEThreeLetter,
+.gardeningNLetter {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(77, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ceviche', sans-serif;
 }
 .developerRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: rgb(13, 168, 163);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 30px;
+  font-weight: 200;
+  color: rgb(12, 209, 15);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 .takeALetter {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(99, 6, 95);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .takeKLetter {
+  font-size: 60px;
+  font-weight: 700;
+  color: #8FBC8F;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .takeELetter {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(15, 162, 215);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ceviche', sans-serif;
 }
 
 /* UP word */
 
-.upULetter {
+.upULetter,
+.skillsLTwoLetter {
+  font-size: 70px;
+  font-weight: 200;
+  color: rgb(162, 12, 112);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
-.upPLetter {
-}
+
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(6, 120, 126);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Rock Salt', sans-serif;
 }
-.gardeningALetter {
+.gardeningALetter,
+.wantedNLetter  {
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(162, 12, 12);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
-.gardeningRLetter {
-}
-.gardeningDLetter {
+.gardeningRLetter,
+.becauseETwoLetter{
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(2, 37, 211);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .gardeningELetter {
-}
-.gardeningNLetter {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(70, 76, 109);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .gardeningILetter {
+  font-size: 40px;
+  font-weight: 200;
+  color: rgb(110, 27, 93);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
-.gardeningNTwoLetter {
+.gardeningNTwoLetter,
+.becauseSLetter  {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(2, 152, 65);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .gardeningGTwoLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(204, 211, 2);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Ceviche', sans-serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(59, 147, 135);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
-.becauseELetter {
+.becauseELetter,
+.becauseULetter {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(4, 224, 41);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
-.becauseCLetter {
+.becauseCLetter,
+.skillsSTwoLetter {
+  font-size: 60px;
+  font-weight: 200;
+  color: rgb(2, 37, 211);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(211, 200, 2);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Ceviche', sans-serif;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(211, 30, 2);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Ceviche', sans-serif;
 }
-.theyHLetter {
+.theyHLetter,
+.wantedDLetter {
+  font-size: 40px;
+  font-weight: lighter;
+  color: rgb(2, 211, 85);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .theyELetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(155, 2, 211);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
 }
 .theyYLetter {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(2, 211, 162);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Monoton', sans-serif;
 }
 
 /* WANTED word */
 
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
+.wantedALetter,
+.skillsLLetter {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(81, 0, 20);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 .wantedTLetter {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(47, 2, 211);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Shadows Into Light', sans-serif;
 }
-.wantedELetter {
-}
-.wantedDLetter {
+.wantedELetter, 
+.rootTLetter {
+  font-size: 70px;
+  font-weight: 400;
+  color: rgb(211, 200, 2);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
 /* TO word */
 
-.toTLetter {
+.toTLetter,
+.improveRLetter {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(99, 211, 2);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 .toOLetter {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(2, 187, 211);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 
 /* IMPROVE word */
 
-.improveILetter {
+.improveILetter,
+.improveOLetter {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(148, 0, 62);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .improveMLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(27, 20, 50);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', sans-serif;
 }
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
+.improvePLetter,
+.improveVLetter,
+.theirILetter  {
+  font-size: 50px;
+  font-weight: lighter;
+  color: rgb(253, 0, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Ceviche', sans-serif;
 }
 .improveELetter {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(203, 109, 109);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
 }
 
 /* THEIR word */
 
-.theirTLetter {
+.theirTLetter,
+.skillsSLetter {
+  font-size: 50px;
+  font-weight: lighter;
+  color: rgb(9, 8, 79);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
-.theirHLetter {
+.theirHLetter,
+.rootOTwoLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 253, 114);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Ceviche', sans-serif;
 }
 .theirELetter {
-}
-.theirILetter {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(40, 47, 99);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .theirRLetter {
+  font-size: 70px;
+  font-weight: 400;
+  color: rgb(99, 40, 83);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Shadow Into Light', sans-serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(13, 18, 29);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Shadow Into Light', sans-serif;
 }
 .rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
+  font-size: 60px;
+  font-weight: lighter;
+  color: rgb(155, 5, 115);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Monoton', sans-serif;
 }
 
 /* SKILLS word */
 
-.skillsSLetter {
-}
 .skillsKLetter {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(5, 148, 155);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
 }
 .skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
+  font-size: 70px;
+  font-weight: lighter;
+  color: rgb(85, 155, 5);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #FF69B4;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Shadow Into Light', sans-serif;
 }
 .exclamation-mark {
+  font-size: 60px;
+  font-weight: lighter;
+  color: #FFA07A;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Rock Salt', sans-serif;
 }
 .question-mark {
+  font-size: 70px;
+  font-weight: bold;
+  color: #0000CD;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Monoton', sans-serif;
 }
